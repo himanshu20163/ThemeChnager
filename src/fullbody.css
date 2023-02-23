@@ -1,0 +1,44 @@
+.main{
+    height:100vh;
+    width:100%;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    box-shadow: 2px 2px 2px rgb(49, 45, 45);
+    display: flex;
+    justify-content: space-around;
+    height:15%;
+    width:100%;
+}
+.menu{
+    width:50%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    height: 100%;
+    width:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-style: none;
+    color: white;
+    height:30px;
+    width:100px;
+    background-color: brown;
+}
+h2{
+    color: brown;
+}
